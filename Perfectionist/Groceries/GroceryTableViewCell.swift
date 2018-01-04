@@ -23,11 +23,17 @@ class GroceryTableViewCell: UITableViewCell, UITextFieldDelegate {
         super.init(coder: aDecoder)
     }
     
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    }
+    
     public func set(indexpath: IndexPath?, delegate: GroceryTableViewCellDelegate?, text: String?) {
         
         self.indexPath = indexpath ?? nil
         self.delegate = delegate ?? nil
-        self.groceryItem.text = text ?? "Empty"
+        if let groceryTextField = self.groceryItem {
+            groceryTextField.text = text ?? "Empty"
+        }
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
