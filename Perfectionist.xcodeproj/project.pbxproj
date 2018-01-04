@@ -18,6 +18,8 @@
 		E54EEA3E1FFAD67500BC4188 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EEA3D1FFAD67500BC4188 /* TodoListViewController.swift */; };
 		E54EEA401FFAED4D00BC4188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54EEA3F1FFAED4D00BC4188 /* Assets.xcassets */; };
 		E54EEA431FFAF2D100BC4188 /* GroceryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EEA421FFAF2D100BC4188 /* GroceryTableViewCell.swift */; };
+		E54EEA451FFC63CC00BC4188 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E54EEA441FFC63CB00BC4188 /* GoogleService-Info.plist */; };
+		E54EEA481FFE2B8200BC4188 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EEA471FFE2B8200BC4188 /* TodoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		E54EEA3D1FFAD67500BC4188 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		E54EEA3F1FFAED4D00BC4188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E54EEA421FFAF2D100BC4188 /* GroceryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryTableViewCell.swift; sourceTree = "<group>"; };
+		E54EEA441FFC63CB00BC4188 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E54EEA471FFE2B8200BC4188 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +112,12 @@
 				E54EEA0A1FF928D000BC4188 /* AppDelegate.swift */,
 				E54EEA0C1FF928D000BC4188 /* MainViewController.swift */,
 				E54EEA411FFAF29B00BC4188 /* Groceries */,
-				E54EEA3D1FFAD67500BC4188 /* TodoListViewController.swift */,
+				E54EEA461FFE2AB800BC4188 /* Todo */,
 				E54EEA0E1FF928D000BC4188 /* Main.storyboard */,
 				E54EEA161FF928D000BC4188 /* LaunchScreen.storyboard */,
 				E54EEA191FF928D000BC4188 /* Info.plist */,
 				E54EEA3F1FFAED4D00BC4188 /* Assets.xcassets */,
+				E54EEA441FFC63CB00BC4188 /* GoogleService-Info.plist */,
 				E54EEA111FF928D000BC4188 /* Perfectionist.xcdatamodeld */,
 			);
 			path = Perfectionist;
@@ -143,6 +148,15 @@
 				E54EEA421FFAF2D100BC4188 /* GroceryTableViewCell.swift */,
 			);
 			path = Groceries;
+			sourceTree = "<group>";
+		};
+		E54EEA461FFE2AB800BC4188 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				E54EEA3D1FFAD67500BC4188 /* TodoListViewController.swift */,
+				E54EEA471FFE2B8200BC4188 /* TodoTableViewCell.swift */,
+			);
+			path = Todo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E54EEA181FF928D000BC4188 /* LaunchScreen.storyboard in Resources */,
+				E54EEA451FFC63CC00BC4188 /* GoogleService-Info.plist in Resources */,
 				E54EEA401FFAED4D00BC4188 /* Assets.xcassets in Resources */,
 				E54EEA101FF928D000BC4188 /* Main.storyboard in Resources */,
 			);
@@ -279,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54EEA481FFE2B8200BC4188 /* TodoTableViewCell.swift in Sources */,
 				E54EEA3C1FFAD65F00BC4188 /* GroceryListViewController.swift in Sources */,
 				E54EEA431FFAF2D100BC4188 /* GroceryTableViewCell.swift in Sources */,
 				E54EEA0D1FF928D000BC4188 /* MainViewController.swift in Sources */,
