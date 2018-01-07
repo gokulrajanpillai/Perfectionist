@@ -28,17 +28,24 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8eZ-2a-Pgx" userLabel="todoListButton">
-                                <rect key="frame" x="7" y="114" width="361" height="269.5"/>
+                                <rect key="frame" x="7" y="114" width="361" height="177.5"/>
                                 <state key="normal" image="todoList"/>
                                 <connections>
                                     <segue destination="5CE-LP-omA" kind="show" id="1I0-td-Ibv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfb-WQ-LfS" userLabel="groceryListButton">
-                                <rect key="frame" x="7" y="390.5" width="361" height="269.5"/>
+                                <rect key="frame" x="7" y="298.5" width="361" height="177"/>
                                 <state key="normal" image="groceryList"/>
                                 <connections>
                                     <segue destination="tON-J7-JA3" kind="show" id="qen-9d-Zod"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2a-fG-4zP" userLabel="qrCodeButton">
+                                <rect key="frame" x="7" y="482.5" width="361" height="177.5"/>
+                                <state key="normal" image="qrCode"/>
+                                <connections>
+                                    <segue destination="Acc-K8-w4G" kind="show" id="HFI-KV-62G"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -48,13 +55,17 @@
                             <constraint firstItem="8eZ-2a-Pgx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="66m-mP-oef"/>
                             <constraint firstItem="8eZ-2a-Pgx" firstAttribute="height" secondItem="xfb-WQ-LfS" secondAttribute="height" id="6GN-a0-njp"/>
                             <constraint firstItem="xfb-WQ-LfS" firstAttribute="top" secondItem="8eZ-2a-Pgx" secondAttribute="bottom" constant="7" id="76C-FA-qpb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xfb-WQ-LfS" secondAttribute="bottom" constant="7" id="Hso-D0-wkz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="L2a-fG-4zP" secondAttribute="trailing" constant="7" id="KHw-KH-r1r"/>
+                            <constraint firstItem="L2a-fG-4zP" firstAttribute="height" secondItem="xfb-WQ-LfS" secondAttribute="height" id="e6I-2o-F2e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="L2a-fG-4zP" secondAttribute="bottom" constant="7" id="eAN-T8-O2x"/>
+                            <constraint firstItem="L2a-fG-4zP" firstAttribute="top" secondItem="xfb-WQ-LfS" secondAttribute="bottom" constant="7" id="eo5-bi-W95"/>
                             <constraint firstItem="xfb-WQ-LfS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="fH1-Gz-JfT"/>
                             <constraint firstItem="IVS-Sz-j23" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="7" id="isn-dV-Uw9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xfb-WQ-LfS" secondAttribute="trailing" constant="7" id="l7s-gU-Rli"/>
                             <constraint firstItem="8eZ-2a-Pgx" firstAttribute="top" secondItem="IVS-Sz-j23" secondAttribute="bottom" constant="7" id="osH-FL-NnL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8eZ-2a-Pgx" secondAttribute="trailing" constant="7" id="tip-u7-fpr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IVS-Sz-j23" secondAttribute="trailing" constant="7" id="vl2-Vg-kVb"/>
+                            <constraint firstItem="L2a-fG-4zP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="yaH-QP-Y0Q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -63,6 +74,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
+        </scene>
+        <!--Scanner View Controller-->
+        <scene sceneID="meu-0T-NDv">
+            <objects>
+                <viewController id="Acc-K8-w4G" customClass="QRScannerViewController" customModule="Perfectionist" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5ri-qx-z02">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scanned content will be displayed here!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQg-aM-BD8">
+                                <rect key="frame" x="7" y="71" width="361" height="382"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dba-gj-F7a">
+                                <rect key="frame" x="7" y="460" width="361" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="LqK-SR-UCo"/>
+                                </constraints>
+                                <state key="normal" title="Scan"/>
+                                <connections>
+                                    <action selector="scanAction:" destination="Acc-K8-w4G" eventType="touchUpInside" id="PrX-aP-NeH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cDY-ve-Icy" firstAttribute="bottom" secondItem="dba-gj-F7a" secondAttribute="bottom" constant="7" id="2mP-Ha-8Jx"/>
+                            <constraint firstItem="DQg-aM-BD8" firstAttribute="top" secondItem="cDY-ve-Icy" secondAttribute="top" constant="7" id="Bxj-45-14y"/>
+                            <constraint firstItem="dba-gj-F7a" firstAttribute="leading" secondItem="cDY-ve-Icy" secondAttribute="leading" constant="7" id="ESQ-zO-AZ3"/>
+                            <constraint firstItem="DQg-aM-BD8" firstAttribute="leading" secondItem="cDY-ve-Icy" secondAttribute="leading" constant="7" id="Nqh-9V-aj8"/>
+                            <constraint firstItem="dba-gj-F7a" firstAttribute="top" secondItem="DQg-aM-BD8" secondAttribute="bottom" constant="7" id="SPP-H4-tu9"/>
+                            <constraint firstItem="cDY-ve-Icy" firstAttribute="trailing" secondItem="dba-gj-F7a" secondAttribute="trailing" constant="7" id="cDT-PC-arw"/>
+                            <constraint firstItem="cDY-ve-Icy" firstAttribute="trailing" secondItem="DQg-aM-BD8" secondAttribute="trailing" constant="7" id="xzI-7s-8gH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cDY-ve-Icy"/>
+                    </view>
+                    <connections>
+                        <outlet property="scannedContentLabel" destination="DQg-aM-BD8" id="U9B-dX-6aG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nxb-Bg-n5y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837.60000000000002" y="602.24887556221893"/>
         </scene>
         <!--Todo List View Controller-->
         <scene sceneID="rId-op-eZp">
@@ -154,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S6q-Yo-A4K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="894" y="-314"/>
+            <point key="canvasLocation" x="842" y="-970"/>
         </scene>
         <!--Grocery List View Controller-->
         <scene sceneID="hMq-89-ITD">
@@ -243,7 +299,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lIo-tL-MGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="893.60000000000002" y="523.98800599700155"/>
+            <point key="canvasLocation" x="842" y="-132"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FXD-hz-Z61">
@@ -265,6 +321,7 @@
     <resources>
         <image name="addButton" width="50" height="50"/>
         <image name="groceryList" width="182" height="69"/>
+        <image name="qrCode" width="490" height="275"/>
         <image name="todoList" width="150" height="84"/>
     </resources>
 </document>
