@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56CC68CE7330723C24C8D570 /* Pods_PerfectionistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7E8DF88FE40638F140F9CC /* Pods_PerfectionistUITests.framework */; };
+		BF6BD8D0D2C6B5488833935E /* Pods_PerfectionistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE1B69F81730EAC7F75C5F /* Pods_PerfectionistTests.framework */; };
+		E50B6A6E2002CBD0008CFCFD /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B6A6D2002CBD0008CFCFD /* QRScannerViewController.swift */; };
 		E54EEA0B1FF928D000BC4188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EEA0A1FF928D000BC4188 /* AppDelegate.swift */; };
 		E54EEA0D1FF928D000BC4188 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EEA0C1FF928D000BC4188 /* MainViewController.swift */; };
 		E54EEA101FF928D000BC4188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54EEA0E1FF928D000BC4188 /* Main.storyboard */; };
@@ -20,6 +23,7 @@
 		E54EEA431FFAF2D100BC4188 /* GroceryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EEA421FFAF2D100BC4188 /* GroceryTableViewCell.swift */; };
 		E54EEA451FFC63CC00BC4188 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E54EEA441FFC63CB00BC4188 /* GoogleService-Info.plist */; };
 		E54EEA481FFE2B8200BC4188 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EEA471FFE2B8200BC4188 /* TodoTableViewCell.swift */; };
+		F0657B30647E70DAB57F3927 /* Pods_Perfectionist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5810BFD51D55FB8685C04225 /* Pods_Perfectionist.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		409EFE688FE3AEDA14FA7539 /* Pods-PerfectionistUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectionistUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectionistUITests/Pods-PerfectionistUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DE2780DDFAD52485754C34B /* Pods-Perfectionist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perfectionist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Perfectionist/Pods-Perfectionist.debug.xcconfig"; sourceTree = "<group>"; };
+		5810BFD51D55FB8685C04225 /* Pods_Perfectionist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Perfectionist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B7E8DF88FE40638F140F9CC /* Pods_PerfectionistUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectionistUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEA42E7B8C8B291A4BC8724 /* Pods-PerfectionistUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectionistUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectionistUITests/Pods-PerfectionistUITests.release.xcconfig"; sourceTree = "<group>"; };
+		888C9BF3FE4CA0DD80B81444 /* Pods-PerfectionistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectionistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectionistTests/Pods-PerfectionistTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AAE035336090595FCBAE00B /* Pods-PerfectionistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectionistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectionistTests/Pods-PerfectionistTests.release.xcconfig"; sourceTree = "<group>"; };
+		9305B1C84C25409218DE3CA6 /* Pods-Perfectionist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perfectionist.release.xcconfig"; path = "Pods/Target Support Files/Pods-Perfectionist/Pods-Perfectionist.release.xcconfig"; sourceTree = "<group>"; };
+		CDBE1B69F81730EAC7F75C5F /* Pods_PerfectionistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectionistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50B6A6D2002CBD0008CFCFD /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
 		E54EEA071FF928D000BC4188 /* Perfectionist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perfectionist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54EEA0A1FF928D000BC4188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E54EEA0C1FF928D000BC4188 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0657B30647E70DAB57F3927 /* Pods_Perfectionist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6BD8D0D2C6B5488833935E /* Pods_PerfectionistTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +96,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56CC68CE7330723C24C8D570 /* Pods_PerfectionistUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49D165808EFD9FB79924AC66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5810BFD51D55FB8685C04225 /* Pods_Perfectionist.framework */,
+				CDBE1B69F81730EAC7F75C5F /* Pods_PerfectionistTests.framework */,
+				6B7E8DF88FE40638F140F9CC /* Pods_PerfectionistUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9725062201C42D60FD078375 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2780DDFAD52485754C34B /* Pods-Perfectionist.debug.xcconfig */,
+				9305B1C84C25409218DE3CA6 /* Pods-Perfectionist.release.xcconfig */,
+				888C9BF3FE4CA0DD80B81444 /* Pods-PerfectionistTests.debug.xcconfig */,
+				8AAE035336090595FCBAE00B /* Pods-PerfectionistTests.release.xcconfig */,
+				409EFE688FE3AEDA14FA7539 /* Pods-PerfectionistUITests.debug.xcconfig */,
+				6FEA42E7B8C8B291A4BC8724 /* Pods-PerfectionistUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E50B6A6C2002CB8E008CFCFD /* QRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				E50B6A6D2002CBD0008CFCFD /* QRScannerViewController.swift */,
+			);
+			path = QRScanner;
+			sourceTree = "<group>";
+		};
 		E54EE9FE1FF928D000BC4188 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +141,8 @@
 				E54EEA211FF928D000BC4188 /* PerfectionistTests */,
 				E54EEA2C1FF928D000BC4188 /* PerfectionistUITests */,
 				E54EEA081FF928D000BC4188 /* Products */,
+				9725062201C42D60FD078375 /* Pods */,
+				49D165808EFD9FB79924AC66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +161,7 @@
 			children = (
 				E54EEA0A1FF928D000BC4188 /* AppDelegate.swift */,
 				E54EEA0C1FF928D000BC4188 /* MainViewController.swift */,
+				E50B6A6C2002CB8E008CFCFD /* QRScanner */,
 				E54EEA411FFAF29B00BC4188 /* Groceries */,
 				E54EEA461FFE2AB800BC4188 /* Todo */,
 				E54EEA0E1FF928D000BC4188 /* Main.storyboard */,
@@ -166,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E54EEA321FF928D000BC4188 /* Build configuration list for PBXNativeTarget "Perfectionist" */;
 			buildPhases = (
+				28D5349F4114978285A2D765 /* [CP] Check Pods Manifest.lock */,
 				E54EEA031FF928D000BC4188 /* Sources */,
 				E54EEA041FF928D000BC4188 /* Frameworks */,
 				E54EEA051FF928D000BC4188 /* Resources */,
+				B2CAFC99297A5C8F468E25CC /* [CP] Embed Pods Frameworks */,
+				474C070B4C91A3AAECFEFE1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E54EEA351FF928D000BC4188 /* Build configuration list for PBXNativeTarget "PerfectionistTests" */;
 			buildPhases = (
+				666C5740697C8937E41D639A /* [CP] Check Pods Manifest.lock */,
 				E54EEA1A1FF928D000BC4188 /* Sources */,
 				E54EEA1B1FF928D000BC4188 /* Frameworks */,
 				E54EEA1C1FF928D000BC4188 /* Resources */,
+				ABBF0ADA877C79F6A958CDF1 /* [CP] Embed Pods Frameworks */,
+				60B6292C9A9C9416D84A911D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E54EEA381FF928D000BC4188 /* Build configuration list for PBXNativeTarget "PerfectionistUITests" */;
 			buildPhases = (
+				7E0E107A9B524B21C002B5E4 /* [CP] Check Pods Manifest.lock */,
 				E54EEA251FF928D000BC4188 /* Sources */,
 				E54EEA261FF928D000BC4188 /* Frameworks */,
 				E54EEA271FF928D000BC4188 /* Resources */,
+				704ACF81BAAD182E19E4EE5F /* [CP] Embed Pods Frameworks */,
+				3C2C7E80B39085F4A51B1952 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,6 +349,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28D5349F4114978285A2D765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Perfectionist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C2C7E80B39085F4A51B1952 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectionistUITests/Pods-PerfectionistUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		474C070B4C91A3AAECFEFE1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Perfectionist/Pods-Perfectionist-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60B6292C9A9C9416D84A911D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectionistTests/Pods-PerfectionistTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		666C5740697C8937E41D639A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectionistTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		704ACF81BAAD182E19E4EE5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectionistUITests/Pods-PerfectionistUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E0E107A9B524B21C002B5E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectionistUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABBF0ADA877C79F6A958CDF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectionistTests/Pods-PerfectionistTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2CAFC99297A5C8F468E25CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Perfectionist/Pods-Perfectionist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Perfectionist/Pods-Perfectionist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E54EEA031FF928D000BC4188 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -298,6 +508,7 @@
 				E54EEA3C1FFAD65F00BC4188 /* GroceryListViewController.swift in Sources */,
 				E54EEA431FFAF2D100BC4188 /* GroceryTableViewCell.swift in Sources */,
 				E54EEA0D1FF928D000BC4188 /* MainViewController.swift in Sources */,
+				E50B6A6E2002CBD0008CFCFD /* QRScannerViewController.swift in Sources */,
 				E54EEA0B1FF928D000BC4188 /* AppDelegate.swift in Sources */,
 				E54EEA131FF928D000BC4188 /* Perfectionist.xcdatamodeld in Sources */,
 				E54EEA3E1FFAD67500BC4188 /* TodoListViewController.swift in Sources */,
@@ -464,6 +675,7 @@
 		};
 		E54EEA331FF928D000BC4188 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE2780DDFAD52485754C34B /* Pods-Perfectionist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -479,6 +691,7 @@
 		};
 		E54EEA341FF928D000BC4188 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9305B1C84C25409218DE3CA6 /* Pods-Perfectionist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +707,7 @@
 		};
 		E54EEA361FF928D000BC4188 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888C9BF3FE4CA0DD80B81444 /* Pods-PerfectionistTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +725,7 @@
 		};
 		E54EEA371FF928D000BC4188 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AAE035336090595FCBAE00B /* Pods-PerfectionistTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +743,7 @@
 		};
 		E54EEA391FF928D000BC4188 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409EFE688FE3AEDA14FA7539 /* Pods-PerfectionistUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +760,7 @@
 		};
 		E54EEA3A1FF928D000BC4188 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FEA42E7B8C8B291A4BC8724 /* Pods-PerfectionistUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

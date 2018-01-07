@@ -1,0 +1,12 @@
+PODS:
+  - QRCodeReader.swift (8.0.4)
+
+DEPENDENCIES:
+  - QRCodeReader.swift (~> 8.0.3)
+
+SPEC CHECKSUMS:
+  QRCodeReader.swift: 9730cfa7ed5f0dd839765df8cf18d41db20e4081
+
+PODFILE CHECKSUM: 67be40e438e1a2309258a4f05f12e025674c2dd0
+
+COCOAPODS: 1.3.1
