@@ -28,6 +28,7 @@ xcuserdata/
 *.xcuserstate
 *.xcscmblueprint
 
+
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
@@ -39,6 +40,9 @@ xcuserdata/
 
 ## Carthage
 Carthage/Build
+
+# Cocoapods
+Pods/
 
 # fastlane
 # https://github.com/fastlane/fastlane/blob/master/docs/Gitignore.md
