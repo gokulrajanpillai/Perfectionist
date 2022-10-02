@@ -6,7 +6,7 @@ target 'Perfectionist' do
   use_frameworks!
 
   # Pods for Perfectionist
-  pod 'QRCodeReader.swift', '~> 8.0.3'
+  pod 'QRCodeReader.swift'
 
   target 'PerfectionistTests' do
     inherit! :search_paths
